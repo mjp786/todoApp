@@ -34,13 +34,11 @@ class App extends Component {
 
     //alert(titlee);
     //alert(discriptionn);
-
+    console.log(e);
     var ele = {
       title: titlee,
       discription: discriptionn
     };
-
-    //alert(ele.discription);
 
     let todo = localStorage.getItem("todo")
       ? JSON.parse(localStorage.getItem("todo"))
